@@ -1,0 +1,95 @@
+#header-wrapper.header-transparent + .tp-banner-container{
+    margin-top: 0 !important;
+}
+
+.tp-banner ul{
+    display: none;
+}
+
+.tp-banner-container{
+    width:100%;
+    position:relative;
+    padding:0;
+
+    background-color: #f6f6f6;
+}
+
+.tp-banner{
+    width:100%;
+    position:relative;
+}
+
+.tp-banner-fullscreen-container {
+    width:100%;
+    position:relative;
+    padding:0;
+}
+
+.tp-small-heading{
+    font-size: 24px;
+    color: #dddddd;
+    font-family: 'Yekan','Montserrat', Arial, sans-serif;
+}
+
+.tp-big-heading{
+    position: relative;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.tp-big-heading-bold{
+    font-weight: 700;
+    line-height: 41px;
+}
+.tp-simple-heading{
+    position: relative;
+    color: #fff;
+    font-size: 31px;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 31px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.tp-white{
+    color: #fff;
+}
+
+
+.tp-leftarrow.default {
+    background: rgba(0,0,0,0.6) url(../images/arrowPrev.svg) no-Repeat 10px 11px !important;
+    background-size: 28px !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+.tp-leftarrow.default:hover {
+    background: rgba(0,0,0,0.9) url(../images/arrowPrev.svg) no-Repeat 10px 11px !important;
+    background-size: 28px !important;
+}
+.tp-rightarrow.default {
+    background: rgba(0,0,0,0.6) url(../images/arrowNext.svg) no-Repeat 12px 11px !important;
+    background-size: 28px !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+.tp-rightarrow.default:hover {
+    background: rgba(0,0,0,0.9) url(../images/arrowNext.svg) no-Repeat 12px 11px !important;
+    background-size: 28px !important;
+}
